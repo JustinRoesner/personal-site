@@ -81,6 +81,22 @@ form {
   display: flex;
 }
 
+/* projects */
+.project {
+  background-color: rgba(179, 179, 179, 0.356);
+  padding: 5px 5px 5px 5px;
+  margin: 15px 0px 15px 0px;
+  border-radius: 10px;
+}
+.project:hover {
+  background-color: rgba(105, 105, 105, 0.356);
+}
+
+.project-name {
+  text-align: center;
+  margin-top: 0;
+}
+
 input {
   height: 25px;
   width: 100%;
@@ -136,4 +152,57 @@ a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* when broswer window is smaller than 640px */
+@media (min-width: 1px) and (max-width: 640px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+
+  .nav-list {
+    /* max-width: 200px; */
+    justify-content: center;
+  }
+
+  li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  body {
+    padding: 10% 1% 5% 1%;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+/* when window is between 641px and 1000px wide */
+@media (min-width: 641px) and (max-width: 1000px) {
+  h1 {
+    font-size: 3.25rem;
+    /* text-align: center; */
+  }
+  body {
+    padding: 10% 20% 5% 20%;
+  }
 }
