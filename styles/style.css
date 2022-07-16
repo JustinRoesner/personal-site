@@ -89,7 +89,7 @@ form {
   border-radius: 10px;
 }
 .project:hover {
-  background-color: rgba(105, 105, 105, 0.356);
+  background-color: rgba(80, 80, 80, 0.356);
 }
 
 .project-name {
@@ -170,7 +170,6 @@ a:hover {
   }
 
   .nav-list {
-    /* max-width: 200px; */
     justify-content: center;
   }
 
@@ -200,7 +199,6 @@ a:hover {
 @media (min-width: 641px) and (max-width: 1000px) {
   h1 {
     font-size: 3.25rem;
-    /* text-align: center; */
   }
   body {
     padding: 10% 20% 5% 20%;
