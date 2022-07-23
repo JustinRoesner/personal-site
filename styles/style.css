@@ -85,12 +85,42 @@ form {
   display: flex;
 }
 
+ul {
+  list-style: none;
+}
+
+.list li:before {
+  border-radius: 2px;
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: -1em;
+  margin-right: 0.3rem;
+}
+
+.language-list li:before {
+  background-color: rgb(0, 97, 224);
+}
+
+.tool-list li:before {
+  background-color: rgb(0, 182, 9);
+}
+
+.other-list li:before {
+  background-color: rgb(236, 193, 0);
+}
+
 /* projects */
 .project {
   background-color: rgba(179, 179, 179, 0.356);
   padding: 5px 5px 5px 5px;
   margin: 15px 0px 15px 0px;
   border-radius: 10px;
+}
+
+.project:hover {
+  background-color: #dbe2ef;
 }
 
 .project-name {
@@ -102,10 +132,6 @@ form {
 .project-links {
   text-align: center;
   margin-bottom: 20px;
-}
-
-.project-links ~ a {
-  margin-top: 1000px;
 }
 
 input {
@@ -164,52 +190,4 @@ a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
-}
-
-/* when broswer window is smaller than 640px */
-@media (min-width: 1px) and (max-width: 640px) {
-  h1 {
-    font-size: 3rem;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .subtitle {
-    text-align: center;
-  }
-
-  .nav-list {
-    justify-content: center;
-  }
-
-  li {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  body {
-    padding: 10% 1% 5% 1%;
-  }
-
-  input {
-    width: 300px;
-    font-family: "Roboto", sans-serif;
-  }
-
-  textarea {
-    width: 300px;
-  }
-}
-
-/* when window is between 641px and 1000px wide */
-@media (min-width: 641px) and (max-width: 1000px) {
-  h1 {
-    font-size: 3.25rem;
-  }
-  body {
-    padding: 10% 20% 5% 20%;
-  }
 }

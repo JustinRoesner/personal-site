@@ -1,0 +1,60 @@
+.list-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* when broswer window is smaller than 1300px */
+@media (min-width: 1px) and (max-width: 1300px) {
+  .list-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* when broswer window is smaller than 640px */
+@media (min-width: 1px) and (max-width: 640px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    text-align: center;
+  }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  body {
+    padding: 10% 1% 5% 1%;
+  }
+
+  input {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  textarea {
+    width: 300px;
+  }
+}
+
+/* when window is between 641px and 1000px wide */
+@media (min-width: 641px) and (max-width: 1000px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+  body {
+    padding: 10% 20% 5% 20%;
+  }
+}
