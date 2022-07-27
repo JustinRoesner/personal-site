@@ -3,11 +3,18 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.nav-list {
+  max-width: 500px;
+}
+
 /* when broswer window is smaller than 1300px */
 @media (min-width: 1px) and (max-width: 1300px) {
   .list-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .nav-list {
+    max-width: 1000px;
   }
 }
 
@@ -40,12 +47,12 @@
   }
 
   input {
-    width: 300px;
+    width: 95%;
     font-family: "Roboto", sans-serif;
   }
 
   textarea {
-    width: 300px;
+    width: 95%;
   }
 }
 

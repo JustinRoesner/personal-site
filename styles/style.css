@@ -42,14 +42,15 @@ form {
   color: #3f72af;
   line-height: 0;
   margin-bottom: 40px;
+  font-size: 25px;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
-  max-width: 500px;
   list-style-type: none;
   padding: 0;
+  font-size: 19px;
 }
 
 /* about */
@@ -160,7 +161,7 @@ input {
   margin-bottom: 10px;
   background-color: #ffffff93;
   padding: 7px 7px 7px 7px;
-  border: 2px solid #747474;
+  border: 2px solid #bbbbbb;
   font-size: 1rem;
 }
 
@@ -171,7 +172,7 @@ textarea {
   resize: none;
   background-color: #ffffff93;
   padding: 7px 7px 7px 7px;
-  border: 2px solid #747474;
+  border: 2px solid #bbbbbb;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
 }
@@ -189,9 +190,9 @@ textarea:focus {
 /* footer */
 .footer {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 20%;
-  color: #747474;
+  color: #aaaaaa;
 }
 
 a:link {
