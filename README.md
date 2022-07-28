@@ -1,5 +1,5 @@
 # personal-site
-Current portfolio site. 
+Current portfolio site.  
 **HTML, CSS** 
 
 ## Live Site
