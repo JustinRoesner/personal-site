@@ -2,6 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Justin's portfolio site linking to personal projects and resume."
+    />
+    <meta
+      name="keywords"
+      content="Portfolio, Developer, Software, HTML, CSS, JS, JavaScript"
+    />
+    <meta name="author" content="Justin Roesner" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justin</title>
@@ -16,72 +25,82 @@
     <!-- intro section -->
     <section>
       <h1>Justin Roesner</h1>
-      <p class="subtitle"><strong>Front End Developer</strong></p>
-    <div>
-    <!-- nav bar -->
-      <ul class="nav-list">
-        <li>
-          <a href="https://github.com/JustinRoesner" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/justinroesner/" target="_blank">
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
+      <p class="subtitle"><strong>Software Developer</strong></p>
+      <div>
+        <!-- nav bar -->
+        <ul class="nav-list">
+          <li>
+            <a href="https://github.com/JustinRoesner" target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/justinroesner/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- about -->
     <section>
       <h2>About</h2>
       <p class="about-text">
-        I'm a recent CS graduate from Illinois currently looking to start work
-        as a junior front end developer. My primary skills are JavaScript, HTML,
-        CSS, and React. I'm consistently working on learning new skills and
-        technologies. I'm a lifelong learner with a passion to learn new
-        technology. My love for learning fulfills me and would make me a good
-        member of any team.
+        I'm a recent CS graduate from Illinois seeking a developer position. My
+        primary skills are JavaScript, HTML, CSS, and React.
       </p>
-      <a href="https://drive.google.com/file/d/1B7SPafYgrFe8JO09h8AJRJG61kFXHLf3/view?usp=sharing" target="_blank"><button class="btn-shadow btn-cv">View Resume</button></a>
+      <p class="about-text">
+        I am a lifelong learner with a passion for software. My love for
+        learning fulfills me and I inspire to work with like-minded people.
+      </p>
+      <a
+        href="https://drive.google.com/file/d/1B7SPafYgrFe8JO09h8AJRJG61kFXHLf3/view?usp=sharing"
+        target="_blank"
+        ><button class="btn-shadow btn-cv">View Resume</button></a
+      >
     </section>
 
     <!-- skills -->
     <section>
       <h2 class="skill-section-header">Skills</h2>
-        <h3>Languages</h3>
-          <ul class="list language-list">
-          <div class="list-wrapper">
-            <li>JavaScript (ES6)</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-          </div>
-          </ul>
-        <h3>Tools</h3>
-        <ul class="list tool-list">
-          <div class="list-wrapper">
+      <h3>Languages</h3>
+      <ul class="list language-list">
+        <div class="list-wrapper">
+          <li>JavaScript (ES6)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>TypeScript</li>
+          <li>SASS</li>
+        </div>
+      </ul>
+      <h3>Tools</h3>
+      <ul class="list tool-list">
+        <div class="list-wrapper">
           <li>React</li>
           <li>Git</li>
-          <li>REST</li>
           <li>npm</li>
-          <li>Figma</li>
+          <li>AWS</li>
           <li>Material UI</li>
           <li>Bootstrap</li>
-          </div>
-        </ul>
-        <h3>Other</h3>
-          <ul class="list other-list">
-          <div class="list-wrapper">
-            <li>TDD</li>
-            <li>Agile Development</li>
-            <li>Documentation</li>
-            <li>Responsive Design</li>
-            </div>
-          </ul>
+          <li>REST</li>
+          <li>Figma</li>
+        </div>
+      </ul>
+      <h3>Other</h3>
+      <ul class="list other-list">
+        <div class="list-wrapper">
+          <li>Agile Development</li>
+          <li>Responsive Design</li>
+        </div>
+      </ul>
     </section>
 
     <!-- education -->
@@ -100,59 +119,107 @@
       <h2>Projects</h2>
       <!-- project 1 -->
       <div class="project project1-color">
-        <h3 class="project-name"><a href="http://eqtimer.hugesalt.com/" target="_blank">React Timer</a></h3>
-        <a href="http://eqtimer.hugesalt.com/" target="_blank"><img class="project-img" src="/images/project-timer.jpg" alt="website screenshot of timer app"></a>
+        <h3 class="project-name">
+          <a href="http://notesapp.justinroesner.com/" target="_blank"
+            >Notes App</a
+          >
+        </h3>
+        <a href="http://notesapp.justinroesner.com/" target="_blank"
+          ><img
+            class="project-img"
+            src="/images/project-notesapp.jpg"
+            alt="website screenshot of notes app"
+        /></a>
         <div class="project-text">
           <p>
-            My goal with this project was to create a website where I could create 
-            many named timers with custom times. I was able to achieve this through 
-            the use of React, Material UI and CSS.
+            This site allows notes to be created and deleted. I made light and
+            dark mode styles with basic SASS. I also took the opportunity to use
+            TypeScript to type my variables.
           </p>
-          <a href="https://github.com/JustinRoesner/react-timer/" target="_blank">github.com/JustinRoesner/react-timer</a>
-          <div><strong>HTML, CSS, JS, React, Material UI</strong></div>
+          <a href="https://github.com/JustinRoesner/notes-app/" target="_blank"
+            >github.com/JustinRoesner/notes-app</a
+          >
+          <div><strong>React, TypeScript, JS, HTML, SASS, CSS</strong></div>
         </div>
-        </br>
+        <br />
       </div>
       <!-- project 2 -->
       <div class="project project2-color">
-        <h3 class="project-name"><a href="https://justinroesner.github.io/fake-product-site/" target="_blank">Fake Product Landing Page</a></h3>
-        <a href="https://justinroesner.github.io/fake-product-site/" target="_blank"><img class="project-img" src="/images/project-fake.jpg" alt="website screenshot of timer app"></a>
+        <h3 class="project-name">
+          <a href="http://timer.justinroesner.com/" target="_blank"
+            >React Timer</a
+          >
+        </h3>
+        <a href="http://timer.justinroesner.com/" target="_blank"
+          ><img
+            class="project-img"
+            src="/images/project-timer.jpg"
+            alt="website screenshot of timer app"
+        /></a>
         <div class="project-text">
           <p>
-            This project was an exercise in using HTML, CSS and Bootstrap to create a clean looking and responsive product landing page.
+            My goal with this project was to create a website where I could
+            create many named timers with custom times. I was able to achieve
+            this through the use of React, Material UI and CSS.
           </p>
-          <a href="https://github.com/JustinRoesner/fake-product-site" target="_blank">github.com/JustinRoesner/fake-product-site</a>
-          <div><strong>HTML, CSS, Bootstrap</strong></div>
+          <a
+            href="https://github.com/JustinRoesner/react-timer/"
+            target="_blank"
+            >github.com/JustinRoesner/react-timer</a
+          >
+          <div><strong>React, JS, HTML, CSS, Material UI</strong></div>
         </div>
-        </br>
+        <br />
       </div>
       <!-- project 3 -->
-      <!--*
-      <div class="project">
-        <h3 class="project-name">WIP</h3>
-        <div class="project-links">
-          <a href="" target="_blank">Live Link</a>
-          <a href="" target="_blank">GitHub Link</a>
+      <div class="project project3-color">
+        <h3 class="project-name">
+          <a
+            href="https://justinroesner.github.io/planets-for-sale/"
+            target="_blank"
+            >Planets For Sale</a
+          >
+        </h3>
+        <a
+          href="https://justinroesner.github.io/planets-for-sale/"
+          target="_blank"
+          ><img
+            class="project-img"
+            src="/images/project-fake.jpg"
+            alt="website screenshot of sales page"
+        /></a>
+        <div class="project-text">
+          <p>
+            This project was an exercise in using HTML, CSS and Bootstrap to
+            create a clean looking and responsive product landing page.
+          </p>
+          <a
+            href="https://github.com/JustinRoesner/planets-for-sale/"
+            target="_blank"
+            >github.com/JustinRoesner/planets-for-sale</a
+          >
+          <div><strong>HTML, CSS, Bootstrap</strong></div>
         </div>
-        <div class="technology">WIP</div>
-        </br>
+        <br />
       </div>
-      -->
     </section>
 
     <!-- contact me  -->
     <section class="section-contact-me">
       <h2 id="contact">Contact Me</h2>
-      <p>Feel free to shoot me a message regarding any job opportunity or general feedback. Thank you!</p>
-      <p><a href="mailto:justinroesner@gmail.com">JustinRoesner@gmail.com</a></p>
-      <form
-        action="https://formspree.io/f/mbjwvzpb"
-        method="POST">
-        <input class="" type="email" name="email" placeholder="your email">
-        </br>
+      <p>
+        Feel free to shoot me a message regarding any job opportunity or general
+        feedback. Thank you!
+      </p>
+      <p>
+        <a href="mailto:justinroesner@gmail.com">JustinRoesner@gmail.com</a>
+      </p>
+      <form action="https://formspree.io/f/mbjwvzpb" method="POST">
+        <input class="" type="email" name="email" placeholder="your email" />
+        <br />
         <textarea name="message" placeholder="your message"></textarea>
-        </br>
-        <input type="submit" class="btn-shadow btn-submit" value="Submit"/>
+        <br />
+        <input type="submit" class="btn-shadow btn-submit" value="Submit" />
       </form>
     </section>
 
@@ -160,6 +227,5 @@
     <footer>
       <p class="footer">July 2022, Justin Roesner</p>
     </footer>
-
   </body>
 </html>
