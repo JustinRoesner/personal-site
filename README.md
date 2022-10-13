@@ -1,4 +1,4 @@
-# personal-site
+# Personal Site
 Current portfolio site.  
 **HTML, CSS** 
 
